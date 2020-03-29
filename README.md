@@ -1,4 +1,4 @@
-# EVA Assignment Submissions ( S8 Onwards )
+# EVA Assignment Submissions ( S10 )
 
 This is an original submission of assignments from S8(session 8) onwards. The goal is to get hands on various state of art models and get to the target accuracy assigned.
 The models that i have implemented here is resnet18 and will continously integrate later models onward. 
@@ -36,17 +36,6 @@ Find the best Learning Rate using LRFinder module.
 
 Add or remove albumentation transformation and best values of model hyperparameters and see on which combination it gives best accuracy.
 
-### Results and some observations S8 submission
-1. Highest test accuracy is 84.51% for only one iteration in total number of epochs.
-2. The test accuracy keeps on oscillating in range of 83 - 84 % after a definite number of epoch.
-3. The training accuracy is always 96-97 % during training.
-
-### Results and some observations S9 submission
-1. Highest test accuracy is 85.41% within 60 epochs. 
-2. The test accuracy goes high in less number of epochs than the number of epochs in S8 submission.
-3. Albumentation is used because of which the test accuracy goes high.
-4. GradCam is implemented.
-
 ### Results and some observations S10 submission
 1. Highest test accuracy is 88.41% within 50 epochs. 
 3. Albumentation is used because of which the test accuracy goes high.
@@ -55,7 +44,6 @@ Add or remove albumentation transformation and best values of model hyperparamet
 ### Accuracy
 | Model             | Acc.        |
 | ----------------- | ----------- |
-| [resnet18](https://arxiv.org/abs/1512.03385) S9         | 85.41%      |
 | [resnet18](https://arxiv.org/abs/1512.03385) S10         | 88.41%      |
 
 ## File Structure
